@@ -1,5 +1,9 @@
 export { default as LoginScreen } from './LoginScreen/LoginScreen'
-
-export { default as HomeScreen } from './HomeScreen/HomeScreen'
-
 export { default as RegistrationScreen } from './RegistrationScreen/RegistrationScreen'
+export { default as HomeScreen } from './HomeScreen/HomeScreen'
+export { default as AnalysisScreen } from './AnalysisScreen/AnalysisScreen'
+export { default as CyclesAllScreen } from './CyclesAllScreen/CyclesAllScreen'
+export { default as CyclesSingleScreen } from './CyclesSingleScreen/CyclesSingleScreen'
+export { default as GetHelpScreen } from './GetHelpScreen/GetHelpScreen'
+export { default as InsightsScreen } from './InsightsScreen/InsightsScreen'
+export { default as ProfileScreen } from './ProfileScreen/ProfileScreen'

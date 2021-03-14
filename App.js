@@ -10,7 +10,7 @@ import {decode, encode} from 'base-64'
 if (!global.btoa) {  global.btoa = encode }
 if (!global.atob) { global.atob = decode }
 
-const Stack = createStackNavigator();
+const AppBase = createStackNavigator();
 
 export default function App() {
 
@@ -40,14 +40,14 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <StatusBar hidden = {false} backgroundColor = "#eee1db" translucent = {true}/>
-      <Stack.Navigator initialRouteName={user ? 'Home' : 'Login'} screenOptions={{headerShown: false}}>
-          <Stack.Screen name='Home'>
+      <StatusBar hidden = {false} backgroundColor = "#00BCD4" translucent = {true}/>
+      <AppBase.Navigator initialRouteName={user ? 'Home' : 'Login'} screenOptions={{headerShown: false}}>
+          <AppBase.Screen name='Home'>
             {(props) => <HomeScreen {...props} extraData={user} />}
-          </Stack.Screen>
-          <Stack.Screen name='Login' component={LoginScreen} />
-          <Stack.Screen name='Registration' component={RegistrationScreen} />
-      </Stack.Navigator>
+          </AppBase.Screen>
+          <AppBase.Screen name='Login' component={LoginScreen} />
+          <AppBase.Screen name='Registration' component={RegistrationScreen} />
+      </AppBase.Navigator>
     </NavigationContainer>
   );
 }

@@ -4,13 +4,10 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: '#eee1db'
-    },
-    title: {
-
+        backgroundColor: '#eee1db',
+        justifyContent: 'center'
     },
     logo: {
-        flex: 1,
         height: 120,
         width: 90,
         alignSelf: "center",
@@ -25,7 +22,8 @@ export default StyleSheet.create({
         marginBottom: 10,
         marginLeft: 30,
         marginRight: 30,
-        paddingLeft: 16
+        paddingLeft: 16,
+        width: 250
     },
     button: {
         backgroundColor: '#ddb39d',
@@ -35,7 +33,8 @@ export default StyleSheet.create({
         height: 48,
         borderRadius: 5,
         alignItems: "center",
-        justifyContent: 'center'
+        justifyContent: 'center',
+        width: 250
     },
     buttonTitle: {
         color: 'white',
@@ -43,7 +42,6 @@ export default StyleSheet.create({
         fontWeight: "bold"
     },
     footerView: {
-        flex: 1,
         alignItems: "center",
         marginTop: 20
     },

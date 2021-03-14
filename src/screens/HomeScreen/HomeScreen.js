@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import CyclesSingleScreen from '../CyclesSingleScreen/CyclesSingleScreen';
+import CyclesIndex from '../CyclesIndex/CyclesIndex';
 import ProfileScreen from '../ProfileScreen/ProfileScreen';
 import InsightsScreen from '../InsightsScreen/InsightsScreen';
 import AnalysisScreen from '../AnalysisScreen/AnalysisScreen';
@@ -15,6 +15,7 @@ function BottomTabNavigator() {
       showIcon: true,
       activeTintColor: '#a46950',
       activeBackgroundColor: '#eee1db',
+      inactiveTintColor: '#999999',
       inactiveBackgroundColor: '#eee1db',
           style: {
                 backgroundColor: '#eee1db',
@@ -22,7 +23,7 @@ function BottomTabNavigator() {
                 paddingTop: 7
           }
    }}>
-      <Tab.Screen name="Cycle" component={CyclesSingleScreen} options={{tabBarIcon: ({color}) => (<Icon name="calendar-day" size={20} color={color} />)}}/>
+      <Tab.Screen name="Cycle" component={CyclesIndex} options={{tabBarIcon: ({color}) => (<Icon name="calendar-day" size={20} color={color} />)}}/>
       <Tab.Screen name="Insights" component={InsightsScreen} options={{tabBarIcon: ({color}) => (<Icon name="lightbulb" size={20} color={color} />)}}/>
       <Tab.Screen name="Analysis" component={AnalysisScreen} options={{tabBarIcon: ({color}) => (<Icon name="chart-bar" size={20} color={color} />)}}/>
       <Tab.Screen name="Get Help" component={GetHelpScreen} options={{tabBarIcon: ({color}) => (<Icon name="stethoscope" size={20} color={color} />)}}/>

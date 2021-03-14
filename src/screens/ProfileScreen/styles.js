@@ -14,7 +14,7 @@ export default StyleSheet.create({
       fontWeight: 'bold',
       color: '#a46950',
       textAlign: 'center',
-      marginTop: 25,
-      marginBottom: 15
+      marginTop: 30,
+      marginBottom: 10
     }
   });

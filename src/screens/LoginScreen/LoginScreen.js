@@ -40,10 +40,11 @@ export default function LoginScreen({navigation}) {
     }
 
     return (
-        <View style={styles.container}>
-            <KeyboardAwareScrollView
-                style={{ flex: 1, width: '100%' }}
-                keyboardShouldPersistTaps="always">
+        <KeyboardAwareScrollView
+            resetScrollToCoords={{ x: 0, y: 0 }}
+            contentContainerStyle={styles.container}
+            scrollEnabled={false}
+        >
                 <Image
                     style={styles.logo}
                     source={require('../../../assets/redLogo.jpg')}
@@ -75,7 +76,6 @@ export default function LoginScreen({navigation}) {
                 <View style={styles.footerView}>
                     <Text style={styles.footerText}>Don't have an account? <Text onPress={onFooterLinkPress} style={styles.footerLink}>Sign up</Text></Text>
                 </View>
-            </KeyboardAwareScrollView>
-        </View>
+        </KeyboardAwareScrollView>
     )
 }

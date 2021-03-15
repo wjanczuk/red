@@ -19,7 +19,7 @@ export default function CyclesSingleScreen({navigation}) {
         </View>
         <View style={styles.subContainer}>
             <Text>This is the all cycles screen.</Text>
-            <CalendarListComponent></CalendarListComponent>
+            <CalendarListComponent onDayPress={(day) => navigation.navigate('Cycle', day)}></CalendarListComponent>
         </View>
         </View>
     )

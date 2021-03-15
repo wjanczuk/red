@@ -4,7 +4,9 @@ import { Text, View } from 'react-native';
 import styles from './styles';
 
 
-export default function CyclesSingleScreen({navigation}) {
+export default function CyclesSingleScreen({navigation, day}) {
+
+    console.log('day-->', day)
 
     return (
         <View style={styles.container}>

@@ -3,5 +3,4 @@ export { default as RegistrationScreen } from './RegistrationScreen/Registration
 export { default as HomeScreen } from './HomeScreen/HomeScreen'
 export { default as AnalysisScreen } from './AnalysisScreen/AnalysisScreen'
 export { default as GetHelpScreen } from './GetHelpScreen/GetHelpScreen'
-export { default as InsightsScreen } from './InsightsScreen/InsightsScreen'
 export { default as ProfileScreen } from './ProfileScreen/ProfileScreen'

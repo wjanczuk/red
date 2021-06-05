@@ -20,10 +20,6 @@ FEMM's integration between research and persons stands as one example of (health
 * [ReactJS](https://reactjs.org/) - front-end framework
 * [Firebase](firebase.google.com) - database, authorization framework
 
-## Installation
-
-Instructions to come.
-
 ## Developer
 
 * [Weronika Janczuk](https://github.com/wjanczuk)

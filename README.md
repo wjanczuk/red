@@ -8,7 +8,7 @@ I spent 5.5 years with a non-profit called [FEMM](https://www.femmhealth.org), w
 
 The fully completed app "Red" is intended to include a complex, responsive, research-based algorithm that personalizes feedback for women regarding their health and fertility based on their individual, daily symptom-based inputs, such as cervical mucus, body temperature, and more. The pattern of these inputs reflects the degree to which a woman is or is not fully healthy, and the production of certain biomarkers reflects the given status of her fertility. The specific algorithm is a form of IP (so I won't push any algorithmic content here), but the contexual [science](https://femmhealth.org/the-science/) and [research](https://femmhealth.org/professional-education/research/) can be found online.
 
-FEMM's app stands as one example of (health)tech with immense repercussions on the future we're building. Think [Elon Musk's cleverness](https://www.youtube.com/watch?v=zIwLWfaAg-8&ab_channel=TED) with regards to environmental and planeterary infrastructure, take a few (theoretical) steps to the left, and apply it toward the development of infrastructure that brings about the highest form of health integrity in humam bodies *qua* human bodies.
+FEMM's app stands as one example of (health)tech with immense repercussions on the future we're building. Think [Elon Musk's cleverness](https://www.youtube.com/watch?v=zIwLWfaAg-8&ab_channel=TED) with regards to environmental and planeterary infrastructure, take a few (theoretical) steps to the left, and apply it toward the development of infrastructure that brings about the highest form of health integrity in human bodies *qua* human bodies.
 
 (As a result of the app's production status, it was never formally deployed.)
 
